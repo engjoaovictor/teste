@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Inspeção</title>
+    <link rel="shortcut icon" href="inspfavicon.ico" type="image/x-icon">
+</head>
+<body>
+   <div>                
+    <h1>Relatório de Inspeção</h1>
+    <hr>
+    <p>Relatório de Inspeção</p>
+    <br>
+
+   </div>
+   
+        <form action="">
+            <fieldset>
+                <legend> <b> Equipe</b> </legend>
+                <br>
+                <label for="carrocontrole">CC</label>
+                <input type="radio" name="carrocontrole" id="carrocontrole">
+                <br>
+                <label for="ultrassom">US</label>
+                <input type="radio" name="ultrassom" id="ultrassom">
+                <br>
+                <br>
+                <div> 
+                    <label for="tecnico"> Técnico: </label> <!--Aqui o usuário irá inserir o nome do técnico da inspeção-->
+                    <input type="text" name="tecnico" id="tecnico" class="imputUser" required> <!-- "Required" pois o campo é obrigatório-->
+                </div>
+                <div>
+                    <label for="condutor"> Condutor: </label> <!-- Aqui o usuário irá inserir o nome do condutor da inspeção-->
+                    <input type="text" name="condutor" id="condutor" class="imputUser" required> <!-- "Required" pois o campo é obrigatório-->
+                </div>
+                <div>
+                    <label for="acompanhantes"> Acompanhantes: </label> <!-- Aqui o usuário irá inserir o(s) nome(s) dos acompanhantes da inspeção-->
+                    <input type="text" name="acompanhantes" id="acompanhantes" class="imputUser" required> <!-- "Required" pois o campo é obrigatório-->
+                </div>
+                <br>
+                <div>
+                    <label for="data"> Data da inspeção: </label> <!-- Aqui o usuário irá inserir a data da inspeção-->
+                    <input type="datetime-local" name="data" id="data" required>
+                </div>
+                <br>
+                <div>
+                    <label for=""></label>
+                </div>
+            </fieldset>
+        </form>
+    
+</body>
+</html>
