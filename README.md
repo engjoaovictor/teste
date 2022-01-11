@@ -1,2 +1,0 @@
-# teste
-Repository for tests
